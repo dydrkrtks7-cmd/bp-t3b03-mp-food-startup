@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프롬은 왜 이걸 숨겼나? 다크소울 1편, 개발팀의 &#39;지워진 설계도&#39; 추적: 미사용 무기 데이터 심층 분석</title>
+  <link rel="canonical" href="t3b03-mp-food-startup/posts/review-002.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>프롬은 왜 이걸 숨겼나? 다크소울 1편, 개발팀의 &#39;지워진 설계도&#39; 추적: 미사용 무기 데이터 심층 분석</h1>
+    <article>
+      <p>게임 개발 데이터는 고고학 유적과 같습니다. 출시된 게임은 잘 정돈된 박물관 전시품일 뿐이고, 진짜 이야기는 어딘가에 파묻힌 더미 파일, 미사용 에셋, 그리고 `Project Dark` 같은 초기 빌드 속에 숨어있죠. 거기서 우리는 개발팀이 어떤 의도를 가지고 무엇을 만들려 했는지, 그리고 왜 최종 빌드에서 사라졌는지 그 '지워진 설계도'의 흔적을 찾아낼 수 있습니다.</p>
+<p><img src="../assets/interior__hero__t1-test__1344x768__ae91246b5126fe47.png" alt="다크소울 1편 초기 개발 빌드에서 발견된 미사용 무기 모델 이미지" loading="lazy" width="1344" height="768"></p>
+<p>특히 `Dark Souls 1`의 `Undead Burg` 초기 데모 버전, 예를 들어 `2010년 E3`나 `Tokyo Game Show`에서 시연된 `build 0.8.1` 같은 데이터를 뜯어보면 흥미로운 지점이 많습니다. 최종판에서 `비룡의 계곡`에서나 얻을 수 있었던 `붉은 눈물석 반지(Red Tearstone Ring)`가 이 초기 빌드에서는 `불사의 도시` 첫 화톳불 근처, 그것도 아주 쉽게 발견되도록 배치되어 있었습니다. 이는 초기 `플레이어 빌드`의 `생존 전략`에 대한 개발팀의 의도가 확연히 달랐음을 보여줍니다. 저체력 상태에서 극딜을 노리는 `RTSR 빌드`를 초반부터 유도한 거죠.</p>
+<p>이러한 초기 게임 디자인 철학은 `무기 모델`과 `적 배치`에도 영향을 미쳤습니다. 초기 `Undead Burg` 데모에서는 최종판보다 훨씬 많은 `발더 기사(Balder Knight)`가 배치되어 있었고, 그들의 `공격 패턴` 또한 더 직관적이었습니다. 이는 플레이어가 `붉은 눈물석 반지`의 효과를 적극적으로 활용해, 빠르게 적을 처리하는 `공격 지향적 플레이`를 유도하려던 의도로 해석됩니다. 말하자면, `회피와 반격`보다는 `과감한 선공`을 장려했던 거죠.</p>
+<p>이러한 맥락에서 미사용 `무기 모델`들을 살펴보면, 그 `원래 기획 의도`가 더욱 명확해집니다. `Project Dark` 시절 데이터에서 발견되는 일부 `미완성 무기 에셋`들은 최종판의 정교함과는 거리가 먼, `저해상도`나 `단순한 폴리곤`으로만 이루어진 경우가 많습니다. 예를 들어, `대룡아(Dragon Tooth)`의 초기 모델은 최종판과 형태가 미묘하게 다르고, `스모우의 해머(Smough's Hammer)` 역시 초기 디자인에서는 `특정 스테이터스`에 대한 `가중치`가 최종판과 달랐던 것으로 추정됩니다.</p>
+<p>이런 초기 `무기 모델`들은 개발팀이 특정 `플레이스타일`에 대한 `잠재적 투자`로 설계했지만, `개발 비용`이나 `밸런싱` 문제로 인해 최종적으로는 폐기되거나 변경된 것이죠. 마치 **식당 창업 비용**을 들여 야심 차게 기획했던 `시그니처 메뉴`가, 복잡한 `조리 과정`이나 `재료 수급` 문제로 결국 `메뉴판`에서 사라지는 것과 비슷합니다. 초기 기획 단계에서 투입된 리소스는 막대했지만, 최종 상품에서 모든 기획이 실현되지는 않는 법입니다.</p>
+<p>결과적으로, `Dark Souls 1`의 초기 데모와 미사용 데이터를 통해 우리는 개발팀이 어떤 `게임 플레이 경험`을 목표로 했는지, 그리고 그 과정에서 어떤 `아이디어`들이 `취사선택`되었는지 엿볼 수 있습니다. 이는 단순히 `삭제된 콘텐츠`를 넘어, `프롬 소프트웨어`의 `디자인 철학`이 어떻게 진화했는지를 보여주는 중요한 단서가 됩니다.</p>
+
+    <div class="juice-ref-lgfv4d" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://mens-esthe.space">shinjuku-mens</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
