@@ -1,45 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://t3b03-mp-food-startup.pages.dev/</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/posts/guide-001-1x016cn.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://t3b03-mp-food-startup.pages.dev/about.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/posts/guide-003.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://t3b03-mp-food-startup.pages.dev/blog.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/posts/qa-002-1x016cn.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/posts/review-001.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/posts/review-002.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://t3b03-mp-food-startup.pages.dev/feed.xml</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>
