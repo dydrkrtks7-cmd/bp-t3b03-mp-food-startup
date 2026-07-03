@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://dydrkrtks7-cmd.github.io/bp-t3b03-mp-food-startup//sitemap.xml
+Sitemap: https://t3b03-mp-food-startup.maphoshirts.com/sitemap.xml
