@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://t3b03-mp-food-startup.maphoshirts.com/sitemap.xml
+Sitemap: https://t3b03-mp-food-startup.maphoshirts.com/sitemap-pages.xml
